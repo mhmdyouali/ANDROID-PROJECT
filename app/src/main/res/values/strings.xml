@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Resturant</string>
+
+    //---------------------------- start layout ---------------------------
+    //--(text)
+
+    <string name="start_layout_login_btn">LOGIN</string>
+    <string name="start_layout_create_account_btn">CREATE ACCOUNT</string>
+
+
+    //-----------------------------Login layout -----------------------------
+    //--(text)
+
+    <string name="login_layout_mail_et_hint">Enter your Mail</string>
+    <string name="login_layout_password_et_hint">Enter your password</string>
+    <string name="login_layout_remember_cb">Remember me</string>
+    <string name="login_layout_sign_in_btn">SIGN IN</string>
+    <string name="login_layout_create_account_tv">Create Account ?</string>
+
+
+
+    //-----------------------------register layout -----------------------------
+    //--(text)
+
+    <string name="register_layout_name_et_hint">Enter your Name</string>
+    <string name="register_layout_mail_et_hint">Enter your Mail</string>
+    <string name="register_layout_Phone_et_hint">Enter your Phone</string>
+    <string name="register_layout_password_et_hint">Enter your Password</string>
+    <string name="register_layout_create_account_btn">CREATE ACCOUNT</string>
+
+</resources>

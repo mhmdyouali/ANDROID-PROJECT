@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/303763823/IEEETask2.iml" filepath="$PROJECT_DIR$/.idea/modules/303763823/IEEETask2.iml" group="IEEETask2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" group="IEEETask2/app" />
+    </modules>
+  </component>
+</project>

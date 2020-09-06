@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start_layout_background_img"
+    tools:context=".register">
+
+
+    <LinearLayout
+        android:layout_width="327dp"
+        android:layout_height="571dp"
+        android:background="@drawable/login_scope"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.612">
+
+
+        <ImageView
+            android:id="@+id/register_layout_user_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="25dp"
+            app:srcCompat="@drawable/user" />
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@android:style/Theme.Material.Light"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/register_layout_name_et"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="20dp"
+                android:drawableEnd="@drawable/ic_identification"
+                android:ems="10"
+                android:hint="Enter your name"
+                android:inputType="textPersonName"
+                android:background="@drawable/login_scope"
+                android:textColorHint="#000"
+                android:textStyle="bold|italic"
+                >
+
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@android:style/Theme.Material.Light"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/register_layout_mail_et"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="15dp"
+                android:drawableEnd="@drawable/ic_email"
+                android:ems="10"
+                android:hint="Enter your Mail"
+                android:textColorHint="#000"
+                android:textStyle="bold|italic"
+                android:inputType="textPersonName"
+                android:background="@drawable/login_scope"
+                >
+
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@android:style/Theme.Material.Light"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/register_layout_password_et"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="15dp"
+                android:drawableEnd="@drawable/ic_baseline_local_phone_24"
+                android:ems="10"
+                android:hint="Enter your phone"
+                android:inputType="number"
+                android:textColorHint="#000"
+                android:textStyle="bold|italic"
+                android:background="@drawable/login_scope"
+                >
+
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@android:style/Theme.Material.Light"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/register_layout_phone_et"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="15dp"
+                android:drawableEnd="@drawable/ic_padlock"
+                android:ems="10"
+                android:hint="Enter your password"
+                android:inputType="textPassword"
+                android:textColorHint="#000"
+                android:textStyle="bold|italic"
+                android:background="@drawable/login_scope"
+                >
+
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/register_layout_create_account_btn"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/buttons_shape"
+            android:text="@string/register_layout_create_account_btn"
+            android:textColor="#ffffff" />
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

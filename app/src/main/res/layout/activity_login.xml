@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start_layout_background_img"
+    tools:context=".login">
+
+    <LinearLayout
+        android:layout_width="328dp"
+        android:layout_height="515dp"
+        android:background="@drawable/login_scope"
+        android:orientation="vertical"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.576">
+
+        <ImageView
+            android:id="@+id/login_layout_user_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="25dp"
+            app:srcCompat="@drawable/user" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@android:style/Theme.Material.Light"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/login_layout_mail_et"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="30dp"
+                android:drawableEnd="@drawable/ic_email"
+                android:ems="10"
+                android:hint="Enter your Mail"
+                android:textColorHint="#000"
+                android:textStyle="bold|italic"
+                android:inputType="textPersonName"
+                android:background="@drawable/login_scope"
+                >
+
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@android:style/Theme.Material.Light"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/login_layout_password_et"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="20dp"
+                android:drawableEnd="@drawable/ic_padlock"
+                android:ems="10"
+                android:textStyle="bold|italic"
+
+                android:hint="Enter your password"
+                android:inputType="textPassword"
+                android:textColorHint="#000"
+
+                android:background="@drawable/login_scope"
+                >
+
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <CheckBox
+            android:id="@+id/login_layout_remember_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/login_layout_remember_cb"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/login_layout_sign_in_btn"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/buttons_shape"
+            android:text="@string/login_layout_sign_in_btn"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/login_layout_create_account_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="35dp"
+            android:gravity="center"
+            android:text="@string/login_layout_create_account_tv"
+            android:textColor="#01a3a4"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
